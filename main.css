@@ -1,0 +1,131 @@
+@media only screen and (max-width:768px) {
+
+    *{
+        font-family:sans-serif ;
+    }
+
+    body{
+        background-color:white;
+        width: 100%;
+    }
+
+    .introduction{
+        display: block;
+        position: relative;
+        text-align: center;
+        min-height: 100vh;
+        align-items: center;
+    }
+
+    .introduction img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .introduction h3{
+        text-align: center;
+        margin-top: 50%;
+    }
+    .welcome{
+        position: relative;
+        display: block;
+        text-align: center;
+        min-height: 100vh;
+    }
+    .welcome h3{
+        text-align: start;
+        margin-left:15px;
+    }
+    .welcome img{
+        width: 340px;
+    }
+    .welcome .logo1{
+        text-align: start;
+        display: inline-flex;
+        align-items: center;
+    }
+    .welcome .logo1 img{
+        width: 150px;
+        height: 150px;
+    }
+    .welcome h1{
+        align-items: center;
+    }
+    .table-of-contents{
+        min-height: 100vh;
+    }
+    .table-of-contents a{
+        text-decoration: none;
+    }
+    .game-summary{
+        display: block;
+        min-height: 100vh;
+    }
+    .system-requirements{
+
+        display: inline-block;
+        min-height: 100vh;
+    }
+
+    .design-rules{
+        display: block;
+        min-height: 100vh;
+    }
+
+    .design-rules li {
+        margin-top: 20px;
+    }
+
+    .user-interface{
+        display:block ;
+        position: relative;
+        min-height: 100vh;
+        text-align: center;
+        overflow: hidden;
+    }
+  
+    .user-interface img{
+        width: 340px;
+    }
+    .control{
+        position: relative;
+        display: block;
+        min-height: 100vh;
+    }
+    .control ul{
+        display: block;
+    }
+    .game-pause{
+        display: block;
+        position: relative;
+        min-height: 100vh;
+        text-align: center;
+    }
+    .game-pause h1, #yes{
+        padding: 10px;
+        background-color: red;
+    }
+    .game-pause img{
+        width: 340px;
+    }
+
+    .OS-requirements{
+        position: relative;
+        min-height: 100vh;
+        align-items: center;
+        text-align: center;
+    }
+    .OS-requirements h2{
+        text-align: start;
+    }
+    .play{
+        display: block;
+        min-height: 100vh;
+        text-align: center;
+    }
+    .play img{
+        width: 340px;
+        margin: 20px;
+    }
+    
+}
