@@ -1,3 +1,136 @@
+body{
+    background-color: white;
+    font-family: sans-serif;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.introduction{
+    display: inline-block;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    min-height: 100vh;
+    margin-top: 150px;
+}
+.introduction img{
+    width: 200px;
+    height: 200px;
+}
+.welcome{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+}
+.welcome img{
+    text-align: center;
+    max-width: fit-content;
+}
+.logo1 {
+    display: inline-flex;
+    align-items: center;
+}
+.logo1 h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+.logo1 img{
+    height: 600px;
+    width: 600px;
+}
+
+.table-of-contents{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+    align-items: start;
+    min-height: 100vh;
+}
+
+.game-summary {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.system-requirements{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.design-rules{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.user-interface{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+.user-interface img{
+    text-align: center;
+    width: 1080px;
+}
+
+.control{
+    display: flex;
+    position: relative;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+.control ul{
+    background-color: rgb(229, 65, 65);
+}
+
+.game-pause {
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    position: relative;
+    min-height: 100vh;
+    text-align: center;
+}
+.game-pause img{
+    width: 1080px;
+}
+.OS-requirements{
+    display: flex;
+    flex-direction:column ;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.play{
+    display:flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+.play img{
+    width: 1080px;
+    margin: 20px;
+}
+
+
 @media only screen and (max-width:768px) {
 
     *{
@@ -43,6 +176,9 @@
         text-align: start;
         display: inline-flex;
         align-items: center;
+    }
+    .welcome .logo1 h1{
+        font-size: 30px;
     }
     .welcome .logo1 img{
         width: 150px;
@@ -125,7 +261,6 @@
     }
     .play img{
         width: 340px;
-        margin: ;
     }
     
 }
